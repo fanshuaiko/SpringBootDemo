@@ -1,0 +1,8 @@
+server:
+  port: 8091
+
+testParam: This is start with application-prod.yml
+
+student:
+      name: 张三
+      age: 25

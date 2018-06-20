@@ -1,0 +1,24 @@
+
+server:
+  port: 8088
+
+spring:
+
+  profiles:
+    active:
+    - prod
+
+  datasource:
+      url: jdbc:mysql://localhost:3306/SpringBootDemo
+      username: root
+      password: mysql123
+      driver-class-name: com.mysql.jdbc.Driver    
+
+      
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    
+
+      
